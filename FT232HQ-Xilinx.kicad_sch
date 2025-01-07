@@ -4727,6 +4727,12 @@
 		(uuid "6626c2ac-55cd-4d65-bcae-582f20fe6f37")
 	)
 	(junction
+		(at 207.01 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "706959c6-f35b-4a35-9b42-50ad541bc051")
+	)
+	(junction
 		(at 193.04 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4755,6 +4761,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94bf74e0-8d80-4876-a93c-c2d7b1176301")
+	)
+	(junction
+		(at 198.12 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3e24f02-525e-4357-a31d-e627aed6c243")
 	)
 	(junction
 		(at 248.92 107.95)
@@ -5258,6 +5270,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 107.95) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2b63e9-d644-4db8-ba9b-885ae8e9953a")
+	)
+	(wire
+		(pts
 			(xy 52.07 124.46) (xy 63.5 124.46)
 		)
 		(stroke
@@ -5458,6 +5480,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 115.57) (xy 207.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4457d3f-bdd9-43b4-a923-7b1dd4592bae")
+	)
+	(wire
+		(pts
 			(xy 142.24 132.08) (xy 144.78 132.08)
 		)
 		(stroke
@@ -5615,6 +5647,16 @@
 			(type default)
 		)
 		(uuid "e377a3dd-d186-4014-9996-55088f5c171f")
+	)
+	(wire
+		(pts
+			(xy 198.12 105.41) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70d07bf-f949-417c-90bc-cc110d95d11c")
 	)
 	(wire
 		(pts
@@ -8423,6 +8465,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 198.12 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8480bd91-bf87-418b-91f6-592d55c3fd65")
+		(property "Reference" "R1"
+			(at 197.358 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 198.12 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.342 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63507b69-4cfa-4a2a-be03-02e284dae33c")
+		)
+		(pin "1"
+			(uuid "2f5801fb-60c7-404e-8126-849a20ba3632")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 242.57 130.81 90)
 		(unit 1)
@@ -9171,7 +9282,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 201.93 105.41 90)
+		(at 198.12 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9180,7 +9291,7 @@
 		(fields_autoplaced yes)
 		(uuid "afcf7907-fab4-4ba7-9877-0091747f7fa2")
 		(property "Reference" "#PWR010"
-			(at 205.74 105.41 0)
+			(at 201.93 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9300,7 @@
 			)
 		)
 		(property "Value" "VREF"
-			(at 198.12 105.4099 90)
+			(at 194.31 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,7 +9309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 105.41 0)
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 105.41 0)
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,7 +9327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 201.93 105.41 0)
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
