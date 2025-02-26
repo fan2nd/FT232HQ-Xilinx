@@ -1,3 +1,7 @@
 fp-info-cache
 *.kicad_prl
 *backups
+*.gbrjob
+*.gbr
+*.drl
+*.zip
