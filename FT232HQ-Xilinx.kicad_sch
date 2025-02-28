@@ -3521,182 +3521,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:TLV75533PDBV"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV75533PDBV"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO Regulator Fixed Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV75533PDBV_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV75533PDBV_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -4319,12 +4143,6 @@
 		(uuid "1ec9ee9a-b1ed-4680-9357-2b33ee5ea403")
 	)
 	(junction
-		(at 36.83 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2195511b-1109-42d0-a994-cf266a05410e")
-	)
-	(junction
 		(at 38.1 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4343,12 +4161,6 @@
 		(uuid "277b74c6-5caa-43ab-9022-abb3e739f346")
 	)
 	(junction
-		(at 237.49 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29f04290-a2ef-461a-9bc1-621d16969308")
-	)
-	(junction
 		(at 147.32 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4359,12 +4171,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "363799f7-6143-4ef8-a274-7d2a13f2fc94")
-	)
-	(junction
-		(at 259.08 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3eaae89a-935c-4c0c-a769-53e63ef42627")
 	)
 	(junction
 		(at 152.4 132.08)
@@ -4485,18 +4291,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0cd92ad-a8ce-4247-951f-ee091511e95e")
-	)
-	(junction
-		(at 45.72 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d62703fe-6063-4558-997f-500259a092d4")
-	)
-	(junction
-		(at 114.3 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9cf1b40-5b50-4d12-ae85-bd3fc38d9a86")
 	)
 	(junction
 		(at 53.34 110.49)
@@ -4688,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 33.02) (xy 238.76 33.02)
+			(xy 234.95 33.02) (xy 238.76 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5058,16 +4852,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 45.72 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae2733a6-9f51-43a2-a227-7aef43bc0a70")
-	)
-	(wire
-		(pts
 			(xy 149.86 132.08) (xy 152.4 132.08)
 		)
 		(stroke
@@ -5095,16 +4879,6 @@
 			(type default)
 		)
 		(uuid "b2549928-43d9-46eb-9504-22a61130057b")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 114.3 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b35a752a-5dcd-4a99-9269-30f360e3d866")
 	)
 	(wire
 		(pts
@@ -5288,26 +5062,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 43.18) (xy 260.35 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb21bda7-ed52-4c28-92f9-ca65795e62fb")
-	)
-	(wire
-		(pts
-			(xy 259.08 38.1) (xy 259.08 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb4fb443-20de-44a7-9029-c329a817d606")
-	)
-	(wire
-		(pts
 			(xy 60.96 35.56) (xy 66.04 35.56)
 		)
 		(stroke
@@ -5325,26 +5079,6 @@
 			(type default)
 		)
 		(uuid "ed479e36-d432-4669-a3a2-77aad332f383")
-	)
-	(wire
-		(pts
-			(xy 36.83 100.33) (xy 45.72 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb24760-7d98-4a79-9611-763577d1d624")
-	)
-	(wire
-		(pts
-			(xy 234.95 33.02) (xy 237.49 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96fa165-2813-4f80-9a1c-f10b4f587d52")
 	)
 	(wire
 		(pts
@@ -6165,84 +5899,6 @@
 			(project ""
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV75533PDBV")
-		(at 53.34 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c3773c7-082a-4195-ad99-c542b096584a")
-		(property "Reference" "U2"
-			(at 53.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75533PDBV"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 53.34 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 53.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9752737c-ca43-4fdc-854d-582dff05c638")
-		)
-		(pin "3"
-			(uuid "22f2d453-5425-4e29-8299-7c6a8be03181")
-		)
-		(pin "4"
-			(uuid "8c8aa7db-6690-47cf-b0ce-5f1a3608b4d7")
-		)
-		(pin "5"
-			(uuid "4d4a6a63-18db-4e74-bfcc-cbbb4c722dfd")
-		)
-		(pin "1"
-			(uuid "37390872-b14f-4d06-bb0a-232bc5b99e24")
-		)
-		(instances
-			(project ""
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7878,35 +7534,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 270.51 29.21 180)
+		(lib_id "power:+5V")
+		(at 114.3 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a70175e-18fd-4954-acc7-9e0cc314323a")
-		(property "Reference" "R12"
-			(at 273.05 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 273.05 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 272.288 29.21 90)
+		(uuid "7a7948fd-3c44-446a-9a50-94069e217ccc")
+		(property "Reference" "#PWR013"
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,8 +7552,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 270.51 29.21 0)
+		(property "Value" "+5V"
+			(at 110.49 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,8 +7570,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 270.51 29.21 0)
+		(property "Datasheet" ""
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,16 +7579,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "08a6e5dd-6949-4583-a5b1-3f28e0abb94d")
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "a19c2e90-3b6b-4bf3-8782-9c37515d4ca7")
+			(uuid "7a369d3b-4d30-4248-9eb9-44a8f94e73a7")
 		)
 		(instances
-			(project "FT2232"
+			(project "FT232HQ-Xilinx"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "R12")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8372,7 +8025,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 114.3 63.5 90)
+		(at 114.3 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8381,7 +8034,7 @@
 		(fields_autoplaced yes)
 		(uuid "908f5bed-566b-4123-87f1-0e62ba779309")
 		(property "Reference" "#PWR043"
-			(at 118.11 63.5 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +8043,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 111.76 63.4999 90)
+			(at 111.76 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +8052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 63.5 0)
+			(at 114.3 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,7 +8061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 63.5 0)
+			(at 114.3 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,7 +8070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 63.5 0)
+			(at 114.3 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,72 +9030,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 270.51 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd38632a-2d60-4c1c-b30c-13d924294096")
-		(property "Reference" "#PWR034"
-			(at 270.51 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 270.51 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 270.51 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d39d91b-ed16-47bd-9196-944cecb616b2")
-		)
-		(instances
-			(project "FT2232"
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 175.26 109.22 270)
 		(unit 1)
@@ -10032,73 +9619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 267.97 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d541bc07-575f-4435-a248-5a631cc6c572")
-		(property "Reference" "#PWR033"
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 271.78 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 267.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f12e97d-37b0-43ec-8ee1-cfd1cdebd46e")
-		)
-		(instances
-			(project "FT2232"
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.2 35.56 0)
 		(unit 1)
@@ -10414,73 +9934,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 264.16 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6e499a2-220d-430c-a3b6-db144ab8a26b")
-		(property "Reference" "R11"
-			(at 262.382 41.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 264.414 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 264.16 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48212dea-9fc2-45ca-9517-e8a4e0ae81e3")
-		)
-		(pin "1"
-			(uuid "b41f7f01-052b-4ab2-a103-dbb6341db724")
-		)
-		(instances
-			(project "FT2232"
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 36.83 104.14 0)
 		(unit 1)
@@ -10681,142 +10134,6 @@
 			(project ""
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed201cc0-fc37-44fd-8d03-9bc968eb4d8c")
-		(property "Reference" "R9"
-			(at 240.03 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 240.03 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 239.268 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "407e2bc1-b610-45ba-b01f-ac91ad21c21a")
-		)
-		(pin "1"
-			(uuid "99bac396-f663-449f-87fc-54b785b60346")
-		)
-		(instances
-			(project "FT2232"
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 237.49 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edca98aa-c866-4ffc-9084-edd1666753fa")
-		(property "Reference" "#PWR013"
-			(at 237.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 237.49 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 237.49 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f474af4-efaf-4a77-aca5-1ef5febe02df")
-		)
-		(instances
-			(project "FT2232"
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
