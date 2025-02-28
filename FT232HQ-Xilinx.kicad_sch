@@ -1626,6 +1626,213 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -4161,6 +4368,12 @@
 		(uuid "277b74c6-5caa-43ab-9022-abb3e739f346")
 	)
 	(junction
+		(at 196.85 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c7de6ff-8257-45d1-bffa-2b481f5f2473")
+	)
+	(junction
 		(at 147.32 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4371,10 +4584,6 @@
 		(uuid "5c605621-9064-4d02-8b31-cacca61b8a18")
 	)
 	(no_connect
-		(at 160.02 106.68)
-		(uuid "65250e16-fd4e-468d-8f0c-72eb36833a33")
-	)
-	(no_connect
 		(at 160.02 91.44)
 		(uuid "6ba96ad5-387d-4994-87cd-90714abdbf5f")
 	)
@@ -4439,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "066eec5b-46dc-4ff0-a602-f2c29632e0bc")
+	)
+	(wire
+		(pts
+			(xy 191.77 142.24) (xy 196.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0829d08a-9f9e-4706-8032-2bafe6d5efb9")
 	)
 	(wire
 		(pts
@@ -4992,6 +5211,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 142.24) (xy 196.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d409250b-4418-445a-b43f-7f35cc100413")
+	)
+	(wire
+		(pts
 			(xy 137.16 55.88) (xy 139.7 55.88)
 		)
 		(stroke
@@ -5177,6 +5406,28 @@
 		)
 		(uuid "28332ed5-c1cd-46b7-8e4a-d606b6974098")
 	)
+	(label "TDI"
+		(at 184.15 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c488820-9b43-43cc-a6ac-7e850daf6615")
+	)
+	(label "AC9"
+		(at 129.54 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39b21b96-bb7a-4def-89fa-f90365cfab44")
+	)
 	(label "TDO"
 		(at 242.57 138.43 180)
 		(fields_autoplaced yes)
@@ -5242,6 +5493,17 @@
 			(justify right bottom)
 		)
 		(uuid "501700b9-838b-400c-aeb3-6b919c0ddbe2")
+	)
+	(label "TCK"
+		(at 184.15 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50840183-33ff-4a0d-9c42-07fd6904c2b3")
 	)
 	(label "TDOR"
 		(at 270.51 138.43 0)
@@ -5408,6 +5670,28 @@
 		)
 		(uuid "c784135e-5590-4667-9c93-e7a76d6ea94d")
 	)
+	(label "AC8"
+		(at 160.02 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca3b0e80-b1fb-4b43-bb90-2f9d7791e1c3")
+	)
+	(label "AC9"
+		(at 160.02 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf3d78ec-64be-4588-89c1-bf18fbd21aff")
+	)
 	(label "DN"
 		(at 60.96 45.72 0)
 		(fields_autoplaced yes)
@@ -5495,6 +5779,17 @@
 			(justify left bottom)
 		)
 		(uuid "fd4bcf62-062b-416b-9dfb-c76a08eb0d52")
+	)
+	(label "AC8"
+		(at 129.54 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdd75821-1926-4820-af45-f828af9dfce6")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -5693,6 +5988,73 @@
 			(project "FT2232"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12c5213f-53fe-4155-9505-9cc821137bbb")
+		(property "Reference" "R7"
+			(at 188.468 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 188.214 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 187.96 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e25a171e-f2f0-4c98-ae19-9a987073210a")
+		)
+		(pin "1"
+			(uuid "ed037c1c-fcbb-4338-b8a9-44bffb040428")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5973,6 +6335,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 140.97 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2313812c-e8f0-42df-9b90-6da92882db65")
+		(property "Reference" "R2"
+			(at 139.954 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.446 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b229d12a-c7ff-4bb7-9a5d-57b9d8938a74")
+		)
+		(pin "1"
+			(uuid "9269c214-7f0b-46ae-ae66-8794df98ecef")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 110.49 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6035,75 +6466,6 @@
 			(project "FT232-hs2"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f752564-51e9-41d5-ba97-435311e1f6d8")
-		(property "Reference" "R2"
-			(at 170.434 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 169.926 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 171.45 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d2107b7-4212-47db-8036-cfa25d47a3bf")
-		)
-		(pin "1"
-			(uuid "dc934de3-7772-4166-bee5-726d590b9199")
-		)
-		(instances
-			(project "FT232HQ-Xilinx"
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6648,6 +7010,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 196.85 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45399666-8083-46e9-8fd3-8250e25f27f0")
+		(property "Reference" "J2"
+			(at 199.39 141.3255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_MountingPin"
+			(at 199.39 143.8655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93cab22a-c808-4e5f-b0e1-8c9d2fef0efb")
+		)
+		(pin "3"
+			(uuid "371f99f5-50ba-4b97-ac38-ffe92d1477f7")
+		)
+		(pin "1"
+			(uuid "49e473a6-f798-4767-993b-a82c1b1d740e")
+		)
+		(pin "MP"
+			(uuid "1350ddb5-381e-479d-b69e-72d5b6e9fcc2")
+		)
+		(instances
+			(project ""
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "492585f0-dd9f-4005-b1b9-b74c6c3bd705")
+		(property "Reference" "#PWR018"
+			(at 140.97 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 148.59 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7f157c7-b05e-44c9-abae-a0a659c3d4b1")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 73.66 90)
 		(unit 1)
@@ -6776,6 +7281,75 @@
 			(project ""
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d4115a9-f5b9-4668-86fa-60cb2fd3ff0a")
+		(property "Reference" "R9"
+			(at 139.954 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.446 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "131a4205-a50d-4e07-a34e-962db6242b93")
+		)
+		(pin "1"
+			(uuid "874544a0-345d-467f-93da-89058ef8e43d")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8355,6 +8929,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 187.96 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d858ea0-4934-4cba-bc30-2f0b06652c3a")
+		(property "Reference" "R6"
+			(at 188.468 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 188.214 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 187.96 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df159c95-b3be-4152-851b-103d2b0457bd")
+		)
+		(pin "1"
+			(uuid "2b43a7ab-409f-4aed-aa9a-119558f65b50")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 73.66 270)
 		(unit 1)
@@ -8613,73 +9254,6 @@
 			(project "FT232HQ-HS2"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 163.83 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b07b63af-9e16-4f05-9ea1-51cb3f5c4f8c")
-		(property "Reference" "D1"
-			(at 163.83 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 163.83 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5f200c4-80f8-470e-ab61-53d3377c680a")
-		)
-		(pin "1"
-			(uuid "6325ab1f-777d-4885-9763-e07d2aa9c769")
-		)
-		(instances
-			(project "FT232HQ-Xilinx"
-				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9030,17 +9604,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 175.26 109.22 270)
+		(lib_id "Device:LED")
+		(at 133.35 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdfb5f6c-cb84-418b-85d0-b47336be678e")
-		(property "Reference" "#PWR018"
-			(at 171.45 109.22 0)
+		(uuid "c5bb688d-efd5-411f-91cd-76180e8229d9")
+		(property "Reference" "D2"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 133.35 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 133.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,17 +9637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 179.07 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 109.22 0)
+		(property "Datasheet" "~"
+			(at 133.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,8 +9646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 175.26 109.22 0)
+		(property "Description" "Light emitting diode"
+			(at 133.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,22 +9655,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "73d5c150-cc56-4619-8263-839831ec4bc1")
 		)
 		(pin "1"
-			(uuid "0a31e1b5-876e-4a0e-b0c7-e7117539f65d")
+			(uuid "ba444bd3-031d-4b71-89b9-8c9bc317d989")
 		)
 		(instances
 			(project "FT232HQ-Xilinx"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
-					(reference "#PWR018")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9231,6 +9805,72 @@
 			(project "FT2232"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc83dead-e599-4ba8-a406-c143a5bc2f9b")
+		(property "Reference" "#PWR019"
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7822e683-a5ea-4703-bf0e-10abccaa896e")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9410,6 +10050,73 @@
 			(project ""
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf10bfce-38a2-405b-98ce-a4d716934161")
+		(property "Reference" "#PWR020"
+			(at 140.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 148.59 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d1064c5-9df4-4d98-8879-2d2f35abe78a")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10226,6 +10933,73 @@
 			(project ""
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 133.35 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efd49ddb-7341-4407-90b4-58c4ca19defb")
+		(property "Reference" "D1"
+			(at 133.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 133.35 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73bd6b8c-9c8b-461e-9ce1-9a8d82cc5715")
+		)
+		(pin "1"
+			(uuid "cca46c9b-3ceb-4748-8275-48fa8833f4be")
+		)
+		(instances
+			(project "FT232HQ-Xilinx"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "D1")
 					(unit 1)
 				)
 			)
